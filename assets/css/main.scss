@@ -1,0 +1,558 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1200;
+}
+
+.box_group {
+    width: 1100px;
+    height: 1000px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-areas: "1fr 1fr 1fr 1fr";
+    row-gap: 0px;
+    column-gap: 0px;
+}
+
+@media only screen and (width:1100px){
+    .box_group{
+        width: 800px;
+        grid-template-areas: "1fr 1fr 1fr";
+    }
+    
+}
+
+@media only screen and (width:800px){
+    .box_group{
+        width: 550px;
+        grid-template-areas: "1fr 1fr";
+    }
+    
+}
+@media only screen and (width:550px){
+    .box_group{
+        width: 320px;
+        grid-template-areas: "1fr";
+    }
+    ~
+}
+
+.card_1 {
+    border: 2px solid black;
+    width: 250px;
+    height: 320px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+}
+
+.card_2 {
+    border: 2px solid black;
+    width: 250px;
+    height: 320px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+}
+
+.card_3 {
+    border: 2px solid black;
+    width: 250px;
+    height: 320px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+}
+
+.card_4 {
+    border: 2px solid black;
+    width: 250px;
+    height: 320px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+}
+
+.card_5 {
+    border: 2px solid black;
+    width: 250px;
+    height: 320px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+}
+
+.card_6 {
+    border: 2px solid black;
+    width: 250px;
+    height: 320px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+}
+
+.card_7 {
+    border: 2px solid black;
+    width: 250px;
+    height: 320px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+}
+
+.card_8 {
+    border: 2px solid black;
+    width: 250px;
+    height: 320px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+}
+
+.card_9 {
+    border: 2px solid black;
+    width: 250px;
+    height: 320px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+}
+
+.card_10 {
+    border: 2px solid black;
+    width: 250px;
+    height: 320px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+}
+
+.card_11 {
+    border: 2px solid black;
+    width: 250px;
+    height: 320px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+}
+
+.card_12 {
+    border: 2px solid black;
+    width: 250px;
+    height: 320px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+}
+
+
+.img {
+    width: 100px;
+    height: 100px;
+}
+
+.text {
+    font-size: 16px;
+    padding: 0px 15px 10px 15px;
+}
+
+.text_2 {
+    font-size: 16px;
+    padding: 0px 15px 10px 15px;
+}
+
+.text_3 {
+    font-size: 16px;
+    padding: 0px 15px 10px 15px;
+}
+
+.text_4 {
+    font-size: 16px;
+    padding: 0px 15px 10px 15px;
+}
+
+.text_5 {
+    font-size: 16px;
+    padding: 0px 15px 10px 15px;
+}
+
+.text_6 {
+    font-size: 16px;
+    padding: 0px 15px 10px 15px;
+}
+
+.text_7 {
+    font-size: 16px;
+    padding: 0px 15px 10px 15px;
+}
+
+.text_8 {
+    font-size: 16px;
+    padding: 0px 15px 10px 15px;
+}
+
+.text_9 {
+    font-size: 16px;
+    padding: 0px 15px 10px 15px;
+}
+
+.text_10 {
+    font-size: 16px;
+    padding: 0px 15px 10px 15px;
+}
+
+.text_11 {
+    font-size: 16px;
+    padding: 0px 15px 10px 15px;
+}
+
+.text_12 {
+    font-size: 16px;
+    padding: 0px 15px 10px 15px;
+}
+
+.img_two {
+    padding-left: 15px;
+}
+
+
+.box {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.text_two {
+    font-size: 16px;
+    color: green;
+    font-weight: 700;
+}
+.text_two_2 {
+    font-size: 16px;
+    color: green;
+    font-weight: 700;
+}
+.text_two_3 {
+    font-size: 16px;
+    color: green;
+    font-weight: 700;
+}
+.text_two_4 {
+    font-size: 16px;
+    color: green;
+    font-weight: 700;
+}
+.text_two_5 {
+    font-size: 16px;
+    color: green;
+    font-weight: 700;
+}
+.text_two_6 {
+    font-size: 16px;
+    color: green;
+    font-weight: 700;
+}
+.text_two_7 {
+    font-size: 16px;
+    color: green;
+    font-weight: 700;
+}
+.text_two_8 {
+    font-size: 16px;
+    color: green;
+    font-weight: 700;
+}
+.text_two_9 {
+    font-size: 16px;
+    color: green;
+    font-weight: 700;
+}
+.text_two_10 {
+    font-size: 16px;
+    color: green;
+    font-weight: 700;
+}
+.text_two_11 {
+    font-size: 16px;
+    color: green;
+    font-weight: 700;
+}
+.text_two_12 {
+    font-size: 16px;
+    color: green;
+    font-weight: 700;
+}
+
+.btn {
+    width: 70px;
+    border-radius: 5px;
+    height: 26px;
+    background: green;
+    border: 1px solid transparent;
+    font-size: 16px;
+    font-weight: 700px;
+    color: white;
+    cursor: pointer;
+
+    &:hover {
+        background: white;
+        color: green;
+        border: 2px solid green;
+    }
+}
+
+.btn_2 {
+    width: 70px;
+    border-radius: 5px;
+    height: 26px;
+    background: green;
+    border: 1px solid transparent;
+    font-size: 16px;
+    font-weight: 700px;
+    color: white;
+    cursor: pointer;
+
+    &:hover {
+        background: white;
+        color: green;
+        border: 2px solid green;
+    }
+}
+
+.btn_3 {
+    width: 70px;
+    border-radius: 5px;
+    height: 26px;
+    background: green;
+    border: 1px solid transparent;
+    font-size: 16px;
+    font-weight: 700px;
+    color: white;
+    cursor: pointer;
+
+    &:hover {
+        background: white;
+        color: green;
+        border: 2px solid green;
+    }
+}
+
+.btn_4 {
+    width: 70px;
+    border-radius: 5px;
+    height: 26px;
+    background: green;
+    border: 1px solid transparent;
+    font-size: 16px;
+    font-weight: 700px;
+    color: white;
+    cursor: pointer;
+
+    &:hover {
+        background: white;
+        color: green;
+        border: 2px solid green;
+    }
+}
+
+.btn_5 {
+    width: 70px;
+    border-radius: 5px;
+    height: 26px;
+    background: green;
+    border: 1px solid transparent;
+    font-size: 16px;
+    font-weight: 700px;
+    color: white;
+    cursor: pointer;
+
+    &:hover {
+        background: white;
+        color: green;
+        border: 2px solid green;
+    }
+}
+
+.btn_6 {
+    width: 70px;
+    border-radius: 5px;
+    height: 26px;
+    background: green;
+    border: 1px solid transparent;
+    font-size: 16px;
+    font-weight: 700px;
+    color: white;
+    cursor: pointer;
+
+    &:hover {
+        background: white;
+        color: green;
+        border: 2px solid green;
+    }
+}
+
+.btn_7 {
+    width: 70px;
+    border-radius: 5px;
+    height: 26px;
+    background: green;
+    border: 1px solid transparent;
+    font-size: 16px;
+    font-weight: 700px;
+    color: white;
+    cursor: pointer;
+
+    &:hover {
+        background: white;
+        color: green;
+        border: 2px solid green;
+    }
+}
+
+.btn_8 {
+    width: 70px;
+    border-radius: 5px;
+    height: 26px;
+    background: green;
+    border: 1px solid transparent;
+    font-size: 16px;
+    font-weight: 700px;
+    color: white;
+    cursor: pointer;
+
+    &:hover {
+        background: white;
+        color: green;
+        border: 2px solid green;
+    }
+}
+
+.btn_9 {
+    width: 70px;
+    border-radius: 5px;
+    height: 26px;
+    background: green;
+    border: 1px solid transparent;
+    font-size: 16px;
+    font-weight: 700px;
+    color: white;
+    cursor: pointer;
+
+    &:hover {
+        background: white;
+        color: green;
+        border: 2px solid green;
+    }
+}
+
+.btn_10 {
+    width: 70px;
+    border-radius: 5px;
+    height: 26px;
+    background: green;
+    border: 1px solid transparent;
+    font-size: 16px;
+    font-weight: 700px;
+    color: white;
+    cursor: pointer;
+
+    &:hover {
+        background: white;
+        color: green;
+        border: 2px solid green;
+    }
+}
+
+.btn_11 {
+    width: 70px;
+    border-radius: 5px;
+    height: 26px;
+    background: green;
+    border: 1px solid transparent;
+    font-size: 16px;
+    font-weight: 700px;
+    color: white;
+    cursor: pointer;
+
+    &:hover {
+        background: white;
+        color: green;
+        border: 2px solid green;
+    }
+}
+
+.btn_12 {
+    width: 70px;
+    border-radius: 5px;
+    height: 26px;
+    background: green;
+    border: 1px solid transparent;
+    font-size: 16px;
+    font-weight: 700px;
+    color: white;
+    cursor: pointer;
+
+    &:hover {
+        background: white;
+        color: green;
+        border: 2px solid green;
+    }
+}
